@@ -18,6 +18,9 @@ html, body {
 }
 
 body{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0;
   background-color: rgb(255, 254, 252);
 }
 
@@ -27,7 +30,7 @@ body{
   margin: 0px 0;
 }
 
-
+/*
 .container{
   position: relative;
   width: 400px;
@@ -40,5 +43,7 @@ body{
   bottom: 10px;
   left: 10px;
 }
+
+*/
 
 
