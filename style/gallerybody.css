@@ -3,7 +3,7 @@
 .gallery-body{
   display: grid;
   justify-content: center;
-  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   place-items: center;
   padding-top: 50px;
   padding-bottom: 100px;
@@ -23,3 +23,18 @@
   height: 150px;
 }
 
+
+@media (max-width: 768px) {
+  .gallery-body {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* smaller columns on mobile */
+    gap: 15px;  /* smaller spacing */
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .camera-pic,
+  .gallerybody-button {
+    width: 120px;   /* shrink images and button */
+    height: 120px;
+  }
+}
