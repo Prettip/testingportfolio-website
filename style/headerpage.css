@@ -1,0 +1,65 @@
+.header-page{
+  display: flex;
+  justify-content: left;
+  padding-left: 20px;
+  padding-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.logo-pic{
+  width: 60px;
+  height: 20px;
+}
+
+.profile-button{
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+}
+
+.profile-icon{
+  width: 60px;
+  height: 20px;
+}
+
+.gallery-button{
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+}
+
+.gallery-icon{
+  width: 60px;
+  height: 20px;
+}
+
+.github-button{
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+}
+
+.github-icon{
+  width: 60px;
+  height: 20px;
+}
+
+.more-button{
+  background-color: rgb(255, 255, 255);
+  border: solid; 
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+}
+
+.more-icon{
+  width: 60px;
+  height: 20px;
+}
+
+
+

@@ -1,0 +1,25 @@
+
+
+.gallery-body{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  place-items: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: rgb(68, 58, 42);
+
+}
+
+.camera-pic{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  
+}
+
+.gallerybody-button{
+  width: 150px;
+  height: 150px;
+}
+
