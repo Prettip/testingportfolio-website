@@ -1,4 +1,11 @@
 
+@media (max-width: 600px) {
+  .col1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 html, body {
   margin-left: 0px;
   margin-right: 0px;
